@@ -3,10 +3,14 @@ package cuentas;
 
 public class Main {
 
-    public static void main(String[] args, Float cantidad) {
+    public static void main(String[] args) {
+        
+      // Creación de método operativa_cuenta
+      
         operativa_cuenta(0);
     }
-
+      // Se añade un parámetro de tipo float llamado cantidad
+     
     private static void operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
         double saldoActual;
